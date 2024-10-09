@@ -55,11 +55,12 @@
         </div>
         <div class="contact-section">
             <div class="lg-container">
-
+                <div id="hs-form"></div>
             </div>
         </div>
 
         <div class="footer">
+
             <div class="lg-container">
                 <div class="row">
                     <div class="col-lg-7">
@@ -104,14 +105,16 @@
                         </div>
                     </div>
                     <div class="col-lg-5">
-                        <div class="form">
+                        <div id="hs-footer"></div>
+
+                        <!-- <div class="form">
                             <h4>
                                 Join our newsletter
                             </h4>
                             <input type="text" class="form-control" placeholder="Full Name">
                             <input type="email" class="form-control" placeholder="Email Address">
                             <button class="btn btn-primary">submit</button>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-lg-12">
                         <div class="copyright">
@@ -128,17 +131,22 @@
     <script src="assets/css/jquery.min.js"></script>
     <script src="assets/css/owl.carousel.min.js"></script>
     <script src="assets/css/script.js"></script>
-    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+    <script src="https://js-eu1.hsforms.net/forms/embed/v2.js"></script>
+
+    <script charset="utf-8" type="text/javascript" src="https://js-eu1.hsforms.net/forms/embed/v2.js"></script>
     <script>
 
         hbspt.forms.create({
-
             region: "eu1",
-
             portalId: "145552666",
-
-            formId: "a7d8137f-6f8b-47a4-836a-d58449ae3b03"
-
+            formId: "a7d8137f-6f8b-47a4-836a-d58449ae3b03",
+            target: "#hs-form"
+        });
+        hbspt.forms.create({
+            region: "eu1",
+            portalId: "145552666",
+            formId: "575e3260-c20d-4a29-9b02-c892d85916b7",
+            target: "#hs-footer"
         });
     </script>
 </body>
