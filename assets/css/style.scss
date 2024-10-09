@@ -694,26 +694,23 @@ html {
                     z-index: 50;
                 }
 
+                
+                .s-card {
+                    width: 48px;
+                    height: 48px;
+                    background: #1EB899;
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 40;
+                    transition: all 0.5s ease-in-out !important;
+                }
                 &:hover {
                     .s-card {
                         transform: rotate(90deg);
                     }
                 }
-            }
-
-            .s-card {
-                width: 48px;
-                height: 48px;
-                background: #1EB899;
-                border-radius: 10px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                z-index: 40;
-
-                transition: rotate 0.3s ease;
-
-
             }
 
         }
@@ -862,7 +859,6 @@ html {
         font-weight: 400;
         line-height: 175%;
         margin-bottom: 32px;
-        text-align: justify;
 
         span {
             font-weight: 700;
