@@ -59,15 +59,18 @@ body {
 html {
     --scrollbarBG: #cfd8dc;
     --thumbBG: #90a4ae;
+    overflow: overlay;
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
+    width: 1px;
+    height: 2px;
+    background: transparent !important;
 }
 
 ::-webkit-scrollbar-track {
-    background: transparent !important;
+    // background: transparent !important;
+    background: transparent url('../images/transparent.png') repeat-y !important;
 }
 
 ::-webkit-scrollbar-thumb {
