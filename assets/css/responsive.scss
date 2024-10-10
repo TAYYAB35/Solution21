@@ -50,15 +50,12 @@
     }
 
     .about-hero-section {
+        min-height: 400px;
+        padding: 150px 0px 80px;
 
         .main-heading h1 {
             padding: 0px !important;
             font-size: 6.25rem;
-        }
-
-        h6 {
-            width: 100%;
-            margin: auto;
         }
     }
 
@@ -107,9 +104,33 @@
     .technologies-section .logos-section .logo-card {
         width: 33.3%;
     }
+
+    .about-section {
+        padding: 90px 0px 40px;
+
+    }
+
+    .about-section {
+
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 32px;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+
 }
 
 @media screen and (max-width: 768px) {
+    .about-section h2 {
+        font-size: 2rem;
+        margin-bottom: 24px;
+    }
+
     .order1 {
         order: 2;
     }
@@ -128,6 +149,17 @@
 
     .hero-section .main-heading h1 {
         font-size: 2.875rem !important;
+    }
+
+    .about-hero-section {
+
+        .main-heading h1 {
+            font-size: 4.5rem !important;
+        }
+
+        .hero-section h6 {
+            font-size: 1rem;
+        }
     }
 
     .header {
@@ -157,8 +189,8 @@
     }
 
     .about-section {
-        padding: 90px 0px 40px;
-        ;
+        padding: 60px 0px 40px;
+
     }
 
     .technologies-section .logos-section {
@@ -266,6 +298,7 @@
         min-height: auto;
     }
 
+
     .contact-btn {
         width: 100%;
         display: flex !important;
@@ -273,7 +306,6 @@
         margin-top: 30px;
     }
 }
-
 
 @media screen and (max-width: 450px) {
     p {

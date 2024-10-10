@@ -109,7 +109,7 @@ html {
 
 
 .header {
-    position: sticky;
+    position: fixed;
     top: 16px;
     left: 0;
     right: 0;
@@ -170,7 +170,7 @@ html {
 }
 
 .header.active {
-    top: 16 px;
+    top: 16px;
 
     .nav-bar {
         box-shadow: $card-shadow;
@@ -230,7 +230,6 @@ html {
     background-position: center;
     background-size: cover;
     padding: 170px 0px 80px;
-    margin-top: -90px;
 
     .main-heading {
         width: 100%;
@@ -789,7 +788,6 @@ html {
     background-position: center;
     background-size: cover;
     padding: 210px 0px 80px;
-    margin-top: -90px;
 
     .main-heading {
         h1 {
