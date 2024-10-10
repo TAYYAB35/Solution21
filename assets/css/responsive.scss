@@ -120,6 +120,10 @@
         order: 2;
     }
 
+    .nav-contact{
+        display: inline-block !important;
+    }
+
     .order2 {
         order: 1;
     }
@@ -260,7 +264,7 @@
         line-height: 18px !important;
     }
 
-    
+
 
     .technologies-section .logos-section .logo-card {
         height: 60px;
@@ -275,5 +279,14 @@
 @media screen and (max-width: 450px) {
     p {
         line-height: 24px !important;
+    }
+
+    .logodark,
+    .logolight {
+        display: none !important;
+    }
+
+    .logo-icon {
+        display: inline-block !important;
     }
 }
