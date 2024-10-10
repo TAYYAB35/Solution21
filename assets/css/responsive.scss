@@ -252,6 +252,9 @@
         padding: 40px 0px;
     }
 
+    .project-section .flex-column-reverse-mobile  {
+        flex-direction: column-reverse;
+    }
     .portfolio-section .project-section .content .about-project .about p {
         line-height: 18px !important;
     }
